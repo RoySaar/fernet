@@ -38,7 +38,7 @@ export function WelcomeModal() {
             <li>✅ Learn the art of mixing bold, herbal drinks</li>
             <li>✅ Discover perfect pairings for your next night out</li>
           </ul>
-          <h4 className="font-bold mt-4">🛠 Ready to shake things up? Let’s dive in!</h4>
+          <h4 className="font-bold mt-4">🛠 Ready to shake things up? Let&apos;s dive in!</h4>
         </div>
         <DialogFooter>
           <Button onClick={() => setIsOpen(false)}>Explore Cocktails</Button>
