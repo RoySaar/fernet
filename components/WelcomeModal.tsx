@@ -28,7 +28,7 @@ export function WelcomeModal() {
         <DialogHeader>
           <DialogTitle>Welcome to The Fernet Bar 🍸</DialogTitle>
           <DialogDescription>
-            Explore our curated Fernet-Branca cocktail collection, from classic recipes to modern twists. Whether you're a seasoned bartender or just discovering this iconic amaro, you'll find inspiration in every sip.
+            Explore our curated Fernet-Branca cocktail collection, from classic recipes to modern twists. Whether you&apos;re a seasoned bartender or just discovering this iconic amaro, you&apos;ll find inspiration in every sip.
           </DialogDescription>
         </DialogHeader>
         <div className="py-4">
