@@ -13,8 +13,8 @@ export default function Home() {
 
   const filteredCocktails = cocktails.filter(
     (cocktail) =>
-      cocktail.ingredients.join(" ").toLowerCase().includes(searchTerm.toLowerCase()) ||
-      cocktail.name.toLowerCase().includes(searchTerm.toLowerCase()) &&
+      (cocktail.ingredients.join(" ").toLowerCase().includes(searchTerm.toLowerCase()) ||
+      cocktail.name.toLowerCase().includes(searchTerm.toLowerCase())) &&
       (selectedCategory === "" || cocktail.category === selectedCategory),
   )
 
