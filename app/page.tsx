@@ -47,7 +47,16 @@ export default function Home() {
         </select>
       </div>
 
-      <Carousel className="w-full max-w-xs mx-auto">
+      {
+        filteredCocktails.length === 0 && (
+          <div className="w-full max-w-xs mx-auto text-center">
+            <span>No matches, maybe it&apos;s time to invent your own Fernet masterpiece!</span>
+          </div>
+        )
+      }
+
+      {filteredCocktails.length > 0 && (
+        <Carousel className="w-full max-w-xs mx-auto">
         <CarouselContent>
           {filteredCocktails.map((cocktail) => (
             <CarouselItem key={cocktail.id}>
@@ -58,6 +67,7 @@ export default function Home() {
         <CarouselPrevious />
         <CarouselNext />
       </Carousel>
+      )}
     </main>
   )
 }
