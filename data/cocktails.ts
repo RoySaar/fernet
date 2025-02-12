@@ -12,9 +12,9 @@ export const cocktails: Cocktail[] = [
     id: 1,
     name: "Toronto",
     ingredients: [
-      "2 oz Rye Whiskey",
-      "1/4 oz Fernet-Branca",
-      "1/4 oz Simple Syrup",
+      "60 ml Rye Whiskey",
+      "7.5 ml Fernet-Branca",
+      "7.5 ml Simple Syrup",
       "2 dashes Angostura Bitters",
       "Orange twist (garnish)"
     ],
@@ -26,9 +26,9 @@ export const cocktails: Cocktail[] = [
     id: 2,
     name: "Hanky Panky",
     ingredients: [
-      "1 1/2 oz London Dry Gin",
-      "1 1/2 oz Sweet Vermouth",
-      "1/4 oz Fernet-Branca",
+      "45 ml London Dry Gin",
+      "45 ml Sweet Vermouth",
+      "7.5 ml Fernet-Branca",
       "Orange peel (garnish)"
     ],
     instructions: "Stir with ice, strain into a coupe glass.",
@@ -39,10 +39,10 @@ export const cocktails: Cocktail[] = [
     id: 3,
     name: "The Industry Sour",
     ingredients: [
-      "1 oz Fernet-Branca",
-      "3/4 oz Green Chartreuse",
-      "3/4 oz Lime Juice",
-      "3/4 oz Simple Syrup"
+      "30 ml Fernet-Branca",
+      "20 ml Green Chartreuse",
+      "20 ml Lime Juice",
+      "20 ml Simple Syrup"
     ],
     instructions: "Shake with ice, strain into a coupe.",
     image: "https://firebasestorage.googleapis.com/v0/b/fernet-34971.firebasestorage.app/o/the-industry-sour.png?alt=media&token=85d26ae8-3910-4d38-a06f-8298bbef433d",
@@ -52,8 +52,8 @@ export const cocktails: Cocktail[] = [
     id: 4,
     name: "Fernet Buck",
     ingredients: [
-      "1 1/2 oz Fernet-Branca",
-      "1/2 oz Lime Juice",
+      "45 ml Fernet-Branca",
+      "15 ml Lime Juice",
       "Ginger Beer (to top)",
       "Lime wedge (garnish)"
     ],
@@ -65,9 +65,9 @@ export const cocktails: Cocktail[] = [
     id: 5,
     name: "Smoke & Herbs",
     ingredients: [
-      "1 1/2 oz Mezcal",
-      "1/2 oz Fernet-Branca",
-      "1/2 oz Honey Syrup",
+      "45 ml Mezcal",
+      "15 ml Fernet-Branca",
+      "15 ml Honey Syrup",
       "2 dashes Chocolate Bitters",
       "Flamed rosemary sprig (garnish)"
     ],
@@ -79,10 +79,10 @@ export const cocktails: Cocktail[] = [
     id: 6,
     name: "Midnight Remedy",
     ingredients: [
-      "1 oz Fernet-Branca",
-      "1 oz Cold Brew Coffee",
-      "1/2 oz Amaro Montenegro",
-      "1/4 oz Maple Syrup",
+      "30 ml Fernet-Branca",
+      "30 ml Cold Brew Coffee",
+      "15 ml Amaro Montenegro",
+      "7.5 ml Maple Syrup",
       "Grated nutmeg (garnish)"
     ],
     instructions: "Shake with ice, strain into a coupe glass.",
@@ -93,10 +93,10 @@ export const cocktails: Cocktail[] = [
     id: 7,
     name: "Bitter Orchard",
     ingredients: [
-      "1 oz Fernet-Branca",
-      "3/4 oz Calvados",
-      "3/4 oz Lemon Juice",
-      "1/2 oz Honey Syrup",
+      "30 ml Fernet-Branca",
+      "20 ml Calvados",
+      "20 ml Lemon Juice",
+      "15 ml Honey Syrup",
       "2 dashes Peychaud’s Bitters",
       "Apple slice (garnish)"
     ],
@@ -108,9 +108,9 @@ export const cocktails: Cocktail[] = [
     id: 8,
     name: "Alpine Spritz",
     ingredients: [
-      "1 oz Fernet-Branca",
-      "1 oz Dry Vermouth",
-      "1/2 oz Elderflower Liqueur",
+      "30 ml Fernet-Branca",
+      "30 ml Dry Vermouth",
+      "15 ml Elderflower Liqueur",
       "Soda Water (to top)",
       "Lemon wheel (garnish)"
     ],
@@ -122,10 +122,10 @@ export const cocktails: Cocktail[] = [
     id: 9,
     name: "The Black Forest",
     ingredients: [
-      "1 oz Fernet-Branca",
-      "1 oz Kirschwasser",
-      "3/4 oz Lemon Juice",
-      "1/2 oz Simple Syrup",
+      "30 ml Fernet-Branca",
+      "30 ml Kirschwasser",
+      "20 ml Lemon Juice",
+      "15 ml Simple Syrup",
       "2 dashes Angostura Bitters",
       "Luxardo cherry (garnish)"
     ],
