@@ -56,7 +56,8 @@ export default function Home() {
       }
 
       {filteredCocktails.length > 0 && (
-        <Carousel className="w-full max-w-xs mx-auto">
+        <div className="w-full max-w-xs mx-auto">
+        <Carousel>
         <CarouselContent>
           {filteredCocktails.map((cocktail) => (
             <CarouselItem key={cocktail.id}>
@@ -67,6 +68,7 @@ export default function Home() {
         <CarouselPrevious />
         <CarouselNext />
       </Carousel>
+      </div>
       )}
     </main>
   )
